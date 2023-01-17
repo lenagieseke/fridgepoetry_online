@@ -1,0 +1,39 @@
+html, body 
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color:lightgray;
+    font-size: 100%;
+    font-family: Gill Sans, sans-serif;
+    overflow: hidden;
+    background-image: url("../img/bg_pattern.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 20%;
+}
+
+.fridge {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border: solid 5px black;
+    background-color: white;
+}
+
+.magnet {
+    position: absolute;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 0.75rem;
+    color: black;
+    border: solid 1px black;
+    background-color: white;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
